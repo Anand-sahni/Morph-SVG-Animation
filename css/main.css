@@ -1,0 +1,49 @@
+body {
+  padding: 12%;
+  font-family: 'Montserrat';
+}
+
+h1 {
+  color: black;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+button {
+  background: darkred;
+  border: none;
+  margin-top: 20px;
+  color: black;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: .3em .6em;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+p {
+  color: red;
+  background: white;
+  margin-top: 80px;
+  display: inline-block;
+  padding: .3em .6em;
+  border-radius: 20px;
+}
+
+#large {
+  visibility: hidden;
+}
+
+svg {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  top: 20%;
+  left: 0;
+}
+
+#shape2 {
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */
